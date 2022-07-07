@@ -1,17 +1,15 @@
-import React from 'react'
-import BookList from '../BookList/BookList'
-import AddBook from '../AddBook/AddBook'
-import style from './Books.module.css'
+import React from 'react';
+import BookList from '../BookList/BookList';
+import AddBook from '../AddBook/AddBook';
+import style from './Books.module.css';
 
-const Books = () =>  {
-  return (
-    <>
+const Books = () => (
+  <>
     <div className={style.container}>
-        <BookList />
-        <AddBook />
+      <BookList />
+      <AddBook />
     </div>
-    </>
-  )
-}
+  </>
+);
 
 export default Books;
