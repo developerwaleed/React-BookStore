@@ -8,23 +8,27 @@
   letter-spacing: -0.4px;
   color: #121212;
 }
+
 .TextStyle5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   color: #121212;
 }
+
 .TextStyle2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   color: #121212;
 }
+
 .TextStyle6 {
   font-family: 'Roboto Slab', serif;
   font-size: 0.875rem;
   font-weight: 300;
   color: #4386bf;
 }
+
 .TextStyle {
   font-family: 'Roboto Slab', serif;
   font-size: 0.813rem;
@@ -33,6 +37,7 @@
   text-align: center;
   color: #fff;
 }
+
 .TextStyle3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.813rem;

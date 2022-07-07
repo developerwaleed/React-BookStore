@@ -11,6 +11,7 @@
   letter-spacing: -0.4px;
   color: #121212;
 }
+
 .TextStyle5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
@@ -21,6 +22,7 @@
   letter-spacing: normal;
   color: #121212;
 }
+
 .TextStyle2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
@@ -31,6 +33,7 @@
   letter-spacing: normal;
   color: #121212;
 }
+
 .TextStyle6 {
   font-family: 'Roboto Slab', serif;
   font-size: 0.875rem;
@@ -41,6 +44,7 @@
   letter-spacing: normal;
   color: #4386bf;
 }
+
 .TextStyle {
   font-family: 'Roboto Slab', serif;
   font-size: 0.813rem;
@@ -52,6 +56,7 @@
   text-align: center;
   color: #fff;
 }
+
 .TextStyle3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.813rem;
@@ -101,6 +106,7 @@
   width: 6.688rem;
   height: 1.188rem;
   font-family: 'Roboto Slab', serif;
+
   /* font-size: 0.875rem; */
   color: #4386bf;
 }
@@ -195,12 +201,12 @@
   background-color: #0290ff;
   border-radius: 3px;
   padding: 8px 24px;
-  font-family: "Roboto Slab",serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 300;
   letter-spacing: 0.5px;
   color: #fff;
 }
 
 .progressBtnDiv {
-  margin-top: 20px
+  margin-top: 20px;
 }

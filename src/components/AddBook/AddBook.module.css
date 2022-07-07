@@ -1,5 +1,5 @@
 .Container {
-    width: 83vw;
+  width: 83vw;
 }
 
 .input {
@@ -14,11 +14,11 @@
 
 .categoryInput {
   width: 30%;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .titleInput {
-    width: 50%;
+  width: 50%;
 }
 
 .formTitle {
@@ -26,14 +26,14 @@
   font-weight: 700;
   letter-spacing: -0.18px;
   color: #888;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .addBookForm {
-    margin-top: 20px;
-    display: flex;
-    grid-gap: 32px;
-    gap: 32px;
+  margin-top: 20px;
+  display: flex;
+  grid-gap: 32px;
+  gap: 32px;
 }
 
 .btnAddBook {
@@ -43,15 +43,15 @@
   border-radius: 3px;
   background-color: #0290ff;
   border: none;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   color: #fff;
-  font-size: .813rem;
+  font-size: 0.813rem;
   font-weight: 700;
-  font-family: "Roboto Slab",serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .dividerHorizontal {
-  height: .125rem;
+  height: 0.125rem;
   background-color: #e8e8e8;
   width: 84vw;
   margin: 2.5rem 0 1.813rem;
