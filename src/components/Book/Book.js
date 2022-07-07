@@ -3,7 +3,6 @@ import style from './Book.module.css';
 
 const Book = (props) => {
   return (
-    <div className={style.container}>
       <div className={style.bookCard}>
         <div className={style.bookinfo}>
           <ul>
@@ -43,7 +42,6 @@ const Book = (props) => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
