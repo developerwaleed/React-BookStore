@@ -1,14 +1,13 @@
 import React from 'react';
 import Book from '../Book/Book';
-import style from './BookList.module.css';
+import AddBook from '../AddBook/AddBook';
+
 const BookList = () => {
   return (
     <>
-      <div className={style.container}>
-          <Book title="Waleed" author="amjad" />
-          <Book title="no" author="yes" />
-          <Book title="oh" author="wow" />
-      </div>
+          <Book title="The Hunger Games" author="Suzanne Collins" />
+          <Book title="Dune" author="Frank Herbert" />
+          <Book title="Capital in the Twenty-First Century" author="Suzanne Collins" />
     </>
   );
 };
