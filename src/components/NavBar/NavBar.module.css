@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap');
+
+.Text-Style-4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: -0.4px;
+  color: #121212;
+}
+
+.TextStyle5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #121212;
+}
+
+.TextStyle2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  color: #121212;
+}
+
+.TextStyle6 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+}
+
+.TextStyle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
+
+.TextStyle3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.BookstoreCMS {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #0290ff;
+}
+
+.BOOKS {
+  width: 3.688rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.CATEGORIES {
+  width: 6.563rem;
+  height: 1rem;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.Oval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: solid 1px #e8e8e8;
+}
+
+.Mask {
+  color: #0290ff;
+}
+
+.navBar {
+  padding: 24px 4%;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  align-items: center;
+  grid-gap: 40px;
+  gap: 40px;
+}
+
+.linkContainer {
+  display: flex;
+  flex-grow: 1;
+  list-style-type: none;
+  grid-gap: 40px;
+  gap: 40px;
+}
