@@ -2,7 +2,20 @@
 const ADD_BOOK = './books/ADD_BOOK';
 const REMOVE_BOOK = './books/REMOVE_BOOK';
 
-const initialState = [];
+const initialState = [
+  {
+    title: 'The Hunger Games',
+    author: 'Suzanne Collins',
+  },
+  {
+    title: 'Dune',
+    author: 'Frank Herbert',
+  },
+  {
+    title: 'Capital in the Twenty-First Century',
+    author: 'Suzanne Collins',
+  },
+];
 
 // Action Creator
 
