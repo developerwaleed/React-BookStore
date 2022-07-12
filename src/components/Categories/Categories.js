@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-// import { bindActionCreators } from 'redux';
 import { checkStatus } from '../../redux/categories/categories';
 import style from './Categories.module.css';
 

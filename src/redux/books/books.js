@@ -4,14 +4,17 @@ const REMOVE_BOOK = './books/REMOVE_BOOK';
 
 const initialState = [
   {
+    id: 0,
     title: 'The Hunger Games',
     author: 'Suzanne Collins',
   },
   {
+    id: 1,
     title: 'Dune',
     author: 'Frank Herbert',
   },
   {
+    id: 2,
     title: 'Capital in the Twenty-First Century',
     author: 'Suzanne Collins',
   },

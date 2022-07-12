@@ -2,9 +2,9 @@ import React from 'react';
 import style from './Book.module.css';
 
 const Book = (bookInfo) => {
-  const { title, author } = bookInfo;
+  const { title, author, id } = bookInfo;
   return (
-    <div className={style.bookCard}>
+    <div className={style.bookCard} id={id}>
       <div className={style.bookinfo}>
         <ul>
           <li className={`${style.SchoolOf} ${style.TextStyle5}`}>Action</li>
