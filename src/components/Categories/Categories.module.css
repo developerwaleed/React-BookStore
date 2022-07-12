@@ -1,3 +1,9 @@
 .btn {
   padding: 20px;
 }
+
+.statusContainer {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
