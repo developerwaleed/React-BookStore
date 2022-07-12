@@ -1,13 +1,16 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Router, Routes, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './redux/configureStore';
 import Navbar from './components/NavBar/NavBar';
 import Books from './components/Books/Books';
 import Categories from './components/Categories/Categories';
 
 function App() {
   return (
-    <>
-      <Router>
+    <BrowserRouter>
+      <Provider store={store}>
         <Navbar />
         <Routes>
           <Route path="React-BookStore/">
@@ -15,8 +18,8 @@ function App() {
             <Route path="CATEGORIES" element={<Categories />} />
           </Route>
         </Routes>
-      </Router>
-    </>
+      </Provider>
+    </BrowserRouter>
   );
 }
 
