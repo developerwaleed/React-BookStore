@@ -1,18 +1,17 @@
 import React from 'react';
+import { PropTypes } from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../../redux/books/books';
 import style from './Book.module.css';
 
-const Book = (bookInfo) => {
+const Book = ({ title, author, id }) => {
   const dispatch = useDispatch();
-  const handleRemovebtn = (e) => {
-    const { id } = e.target.parentElement.parentElement.parentElement;
-    dispatch(removeBook(Number(id)));
+  const handleRemovebtn = () => {
+    dispatch(removeBook(id));
   };
-  const { title, author, id } = bookInfo;
 
   return (
-    <div className={style.bookCard} id={id}>
+    <div className={style.bookCard}>
       <div className={style.bookinfo}>
         <ul>
           <li className={`${style.SchoolOf} ${style.TextStyle5}`}>Action</li>
@@ -64,6 +63,12 @@ const Book = (bookInfo) => {
       </div>
     </div>
   );
+};
+
+Book.propTypes = {
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default Book;

@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addBook } from '../../redux/books/books';
 import style from './AddBook.module.css';
 
 const AddBook = () => {
   const dispatch = useDispatch();
-  const bookState = useSelector((state) => state.books);
   const [book, setBook] = useState({
-    id: bookState.length + 1,
     title: '',
     author: '',
   });
@@ -37,18 +35,16 @@ const AddBook = () => {
             id="bookTitle"
             type="text"
             placeholder="Book title"
-            required
-            value
             onChange={handleChangeinput}
+            required
           />
           <input
             className={`${style.input} ${style.titleInput}`}
             name="author"
             type="text"
             placeholder="Book Author"
-            required
-            value
             onChange={handleChangeinput}
+            required
           />
           <button
             type="button"
