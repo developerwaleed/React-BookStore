@@ -5,23 +5,25 @@ import style from './AddBook.module.css';
 
 const AddBook = () => {
   const dispatch = useDispatch();
-  const [book, setBook] = useState({
-    title: '',
-    author: '',
-  });
-  const handleChangeinput = (e) => {
-    const fieldName = e.target.name;
-    if (fieldName === 'title') {
-      setBook({ title: e.target.value, author: book.author });
-    }
-    if (fieldName === 'author') {
-      setBook({ title: book.title, author: e.target.value });
-    }
-  };
+  // const [book, setBook] = useState({
+  //   title: '',
+  //   author: '',
+  // });
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
+  // const handleChangeinput = (e) => {
+  //   const fieldName = e.target.name;
+  //   if (fieldName === 'title') {
+  //     setBook({ title: e.target.value, author: book.author });
+  //   }
+  //   if (fieldName === 'author') {
+  //     setBook({ title: book.title, author: e.target.value });
+  //   }
+  // };
 
   const handleSubmitbtn = (e) => {
     e.preventDefault();
-    dispatch(addBook(book));
+    dispatch(addBook({ title, author }));
   };
   return (
     <>
@@ -35,7 +37,8 @@ const AddBook = () => {
             id="bookTitle"
             type="text"
             placeholder="Book title"
-            onChange={handleChangeinput}
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
             required
           />
           <input
@@ -43,7 +46,8 @@ const AddBook = () => {
             name="author"
             type="text"
             placeholder="Book Author"
-            onChange={handleChangeinput}
+            value={author}
+            onChange={(e) => setAuthor(e.target.value)}
             required
           />
           <button
