@@ -38,7 +38,7 @@ const AddBook = () => {
             type="text"
             placeholder="Book title"
             required
-            Value
+            value
             onChange={handleChangeinput}
           />
           <input
@@ -47,7 +47,7 @@ const AddBook = () => {
             type="text"
             placeholder="Book Author"
             required
-            Value
+            value
             onChange={handleChangeinput}
           />
           <button

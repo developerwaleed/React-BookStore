@@ -130,6 +130,7 @@
 }
 
 .btnTextStyle {
+  cursor: pointer;
   width: 4.563rem;
   height: 1.188rem;
   margin: 0.188rem 0.938rem 0.125rem 0;

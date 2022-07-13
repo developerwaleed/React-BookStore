@@ -1,8 +1,16 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../../redux/books/books';
 import style from './Book.module.css';
 
 const Book = (bookInfo) => {
+  const dispatch = useDispatch();
+  const handleRemovebtn = (e) => {
+    const { id } = e.target.parentElement.parentElement.parentElement;
+    dispatch(removeBook(Number(id)));
+  };
   const { title, author, id } = bookInfo;
+
   return (
     <div className={style.bookCard} id={id}>
       <div className={style.bookinfo}>
@@ -14,15 +22,25 @@ const Book = (bookInfo) => {
           </li>
         </ul>
         <ul className={style.btnHolder}>
-          <button type="button" className={`${style.btnTextStyle} ${style.TextStyle6}`}>
+          <button
+            type="button"
+            className={`${style.btnTextStyle} ${style.TextStyle6}`}
+          >
             Comments
           </button>
           <div className={style.divider} />
-          <button type="button" className={`${style.btnTextStyle} ${style.TextStyle6}`}>
+          <button
+            type="button"
+            className={`${style.btnTextStyle} ${style.TextStyle6}`}
+            onClick={handleRemovebtn}
+          >
             Remove
           </button>
           <div className={style.divider} />
-          <button type="button" className={`${style.btnTextStyle} ${style.TextStyle6}`}>
+          <button
+            type="button"
+            className={`${style.btnTextStyle} ${style.TextStyle6}`}
+          >
             Edit
           </button>
         </ul>
@@ -38,7 +56,9 @@ const Book = (bookInfo) => {
           <div className={style.currentChapter}>CURRENT CHAPTER</div>
           <div className={style.chapNumber}>Chapter 17</div>
           <div className={style.progressBtnDiv}>
-            <button type="button" className={style.updateProgress}>Update Progress</button>
+            <button type="button" className={style.updateProgress}>
+              Update Progress
+            </button>
           </div>
         </div>
       </div>
