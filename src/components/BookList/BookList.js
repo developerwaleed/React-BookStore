@@ -10,11 +10,10 @@ const BookList = ({ fetchBooks, booksData }) => {
     fetchBooks();
   }, []);
   const bookState = useSelector((state) => state.books);
-
   const books = Object.keys(bookState).map((element) => (
     <Book
       key={element}
-      id={bookState[element][0].id}
+      id={element}
       title={bookState[element][0].title}
       author={bookState[element][0].author}
     />
@@ -32,4 +31,3 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(BookList);
-export { BookList };

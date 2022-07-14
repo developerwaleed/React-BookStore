@@ -1,18 +1,14 @@
 // Action Types
 const ADD_BOOK = './books/ADD_BOOK';
-const REMOVE_BOOK = './books/REMOVE_BOOK';
 
-const BASE_URL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/C7dxiTeoPKlMxBtWHPEw/books';
+const BASE_URL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/v3oVl4fu6jf4j16JSsKb/books';
 
 // Reducers
 const bookReducer = (state = {}, action = {}) => {
   switch (action.type) {
     case ADD_BOOK:
-      // return [...state, action.payload];
+      // console.log(state);
       return action.payload;
-    case REMOVE_BOOK: {
-      return [...state.filter((book) => book.id !== action.id)];
-    }
     default:
       return state;
   }
@@ -48,7 +44,5 @@ export const deleteBook = (id) => async (dispatch) => {
     body: JSON.stringify({ id }),
   }).then(() => dispatch(fetchBooks()));
 };
-
-export const removeBook = (id) => ({ type: REMOVE_BOOK, id });
 
 export default bookReducer;
