@@ -1,15 +1,33 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
+import React, { useEffect } from 'react';
+import { connect, useSelector } from 'react-redux';
+import { fetchBooks } from '../../redux/books/books';
 import Book from '../Book/Book';
 
-const BookList = () => {
+const BookList = ({ fetchBooks, booksData }) => {
+  useEffect(() => {
+    fetchBooks();
+  }, []);
   const bookState = useSelector((state) => state.books);
-
-  const books = bookState.map((element) => (
-    <Book key={element.id} id={element.id} title={element.title} author={element.author} />
+  const books = Object.keys(bookState).map((element) => (
+    <Book
+      key={element}
+      id={element}
+      title={bookState[element][0].title}
+      author={bookState[element][0].author}
+    />
   ));
 
   return <>{books}</>;
 };
 
-export default BookList;
+const mapStateToProps = (state) => ({
+  booksData: state.books,
+});
+
+const mapDispatchToProps = (dispatch) => ({
+  fetchBooks: () => dispatch(fetchBooks()),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(BookList);
