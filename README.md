@@ -19,7 +19,7 @@
 
 ## Live Demo ✔️
 
-[Live Demo Link]()
+[heroku](https://bookstorereactredux.herokuapp.com/React-BookStore)
 
 
 ## Getting Started 🙌
