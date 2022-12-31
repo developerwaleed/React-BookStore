@@ -86,7 +86,7 @@ This projects aim is to serve as the book tracking website!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Click Here for live Version!]()
+[Click Here for live Version!](https://react-book-store-dusky.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,8 +152,7 @@ You can deploy this project using:
 ## 👥 Authors <a name="author"></a>
 | 👤 Name | Github | Twitter | LinkedIn |
 |------|--------|---------|----------|
-|Waleed Amjad|[@caasperr](https://github.com/developerwaleed)|[@developerwaleed](https://twitter.com/developerwaleed)|[@developerwaleed](https://www.linkedin.com/in/developerwaleed/)|
-|Josphat Kiploman|[@Josphat205](https://github.com/Josphat205)||[@josphat-kiploman](https://www.linkedin.com/in/josphat-kiploman-797430236/)|
+|Waleed Amjad|[@caasperr](https://github.com/developerwaleed)|[@developerwaleed](https://twitter.com/developerwaleed)|[@developerwaleed](https://www.linkedin.com/in/developerwaleed/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
