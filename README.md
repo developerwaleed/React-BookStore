@@ -1,80 +1,216 @@
-# React Book Store 😉
-
-## Welcome! 👋
-
-> This Website is all about Books. keep all your reading record in our app 😉😄
-
-                              
-## Built With ✔️
-
-- HTML 😄
-- Css 🔥
-- JavaScript ES6 😋
-- REACT 🔥🔥🔥🔥🔥
-
-## Functionalites 😄
-
-- Can Manage your pending book reading and also save Stats 😉
+<a name="readme-top"></a>
 
 
-## Live Demo ✔️
+<div align="center">
+  <img src="https://github.com/microverseinc/readme-template/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+</div>
 
-[heroku](https://bookstorereactredux.herokuapp.com/React-BookStore)
+<!-- TABLE OF CONTENTS -->
 
+# 📗 Table of Contents
 
-## Getting Started 🙌
+<details>
+  <summary>Click to view contents</summary>
+  <ol>
+    <li>
+      <a href="#about-project">📖 About the Project</a>
+        <ul>
+          <li><a href="#video">📹 Video</a></li>
+          <li>
+            <a href="#built-with">🛠 Built With</a>
+            <ul>
+              <li><a href="#tech-stack">Tech Stack</a></li>
+              <li><a href="#key-features">Key Features</a></li>
+            </ul>
+          </li>
+          <li><a href="#live-demo">🚀 Live Demo</a></li>
+        </ul>
+    </li>
+    <li>
+      <a href="#getting-started">💻 Getting Started</a>
+      <ul>
+        <li><a href="#setup">Setup</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#install">Install</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#run-tests">Run tests</a></li>
+        <li><a href="#deployment">Deployment</a></li>
+      </ul>
+    </li>
+    <li><a href="#authors">👥 Authors</a></li>
+    <li><a href="#future-features">🔭 Future Features</a></li>
+    <li><a href="#contributing">🤝 Contributing</a></li>
+    <li><a href="#support">⭐️ Show your support</a></li>
+    <li><a href="#acknowledgements">🙏 Acknowledgements</a></li>
+    <li><a href="#faq">❓ FAQ</a></li>
+    <li><a href="#license">📝 License</a></li>
+  </ol>
+</details>
 
-To get a local copy up and running follow these simple example steps.
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 React Book Store <a name="about-project"></a>
+
+**React Book Store** is a website that allows its users to add books and keep track of their reading. The website uses redux to fetch and send data to the API.
+
+<div align="center"><img src='./public/mock.jpg' width="700"></div>
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+- React
+- Redux
+
+<details>
+<summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://www.redux.com/">Redux</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+This projects aim is to serve as the book tracking website!
+
+- Consume Rest API
+- Save data in redux store
+- Render data from redux store
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+[Click Here for live Version!]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-```
-  node js
-  npm
 
-```
+- Node Package Manager (npm)
+
 ### Setup
-Clone the repository and change the directory to portfolio
 
-``` 
-  `$ git clone 'https://github.com/caasperr/React-BookStore.git'`
+#### Github
+- Enter this url: [https://github.com/developerwaleed/React-BookStore](https://github.com/developerwaleed/React-BookStore) in your web browser.
+- Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+- Select the download Zip option from drop-down menu.
+- Once the download is complete you will be able to access my project locally.
 
-  `$ cd React-BookStore`
+#### Local (Terminal)
 
+```sh
+  git clone https://github.com/developerwaleed/React-BookStore.git
+  cd React-BookStore
 ```
 
 ### Install
-Install all project dependencies by running the command below
- 
-``` 
- ` $ npm install`
+
+Install dependencies and gems in this project with:
+
+```sh
+  cd React-BookStore
+  npm install
 ```
+
+
 ### Usage
 
-Run
-``` 
-  `$ start local server
+To run the project, execute the following command:
+
+- Run `npm run start` or `npm start` to start a development server.
+
+### Run tests
+
+To run tests, run the following command:
+
+```
+npm run test
 ```
 
+### Deployment
 
-### Authors
+You can deploy this project using:
 
+- Github Pages
+- Netlify
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+## 👥 Authors <a name="author"></a>
 | 👤 Name | Github | Twitter | LinkedIn |
 |------|--------|---------|----------|
-|Waleed Amjad|[@caasperr](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)|[@Waleed Amjad](https://www.linkedin.com/in/waleed-amjad-51930014a/)|
+|Waleed Amjad|[@caasperr](https://github.com/developerwaleed)|[@developerwaleed](https://twitter.com/developerwaleed)|[@developerwaleed](https://www.linkedin.com/in/developerwaleed/)|
+|Josphat Kiploman|[@Josphat205](https://github.com/Josphat205)||[@josphat-kiploman](https://www.linkedin.com/in/josphat-kiploman-797430236/)|
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- FUTURE FEATURES -->
 
-Contributions, issues, and feature requests are welcome!
+## 🔭 Future Features <a name="future-features"></a>
 
-## Show your support
+- Currently none.
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+<!-- CONTRIBUTING -->
 
-- Hat tip to Microverse for giving me this project to work on.
+## 🤝 Contributing <a name="contributing"></a>
 
-## 📝 License
+Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This project is owned by Safar Ali and Waleed Amjad.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue, feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project. Don't forget to give it a ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- A big thanks to [@microverseinc](https://github.com/microverseinc) for the project idea, guidance and inspiration.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ  -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **What inspired me to create this project?**
+
+  - The inspiration for this project came from microverse – a software development bootcamp where you work with teammates remotely on different projects.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

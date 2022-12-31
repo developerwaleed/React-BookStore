@@ -15,6 +15,9 @@ function App() {
       <Provider store={store}>
         <Navbar />
         <Routes>
+          <Route path="/">
+            <Route index element={<Books />} />
+          </Route>
           <Route path="React-BookStore/">
             <Route index element={<Books />} />
             <Route path="CATEGORIES" element={<Categories />} />
